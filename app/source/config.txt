@@ -1,0 +1,23 @@
+appName:XQQ视频压缩器,
+dialogTitle:提示,
+typeErr:格式不支持，仅支持：\n视频格式为【$0】\n图片格式为【$1】,
+emptyErr:不能为空,
+noFile:文件不存在，请检查,
+noDir:目录不存在，请检查,
+noFfmpeg:必要的ffmpeg组件不存在，请重装,
+fail:失败,
+success:成功,
+complete:完成,
+waiting:等待,
+converting:文件：【$0】，正在处理,
+delWarning:程序还在处理文件，是否确定终止并关闭程序？,
+leadingTitle:操作指南,
+leadingContent:
+	<p>支持批量处理，支持图片与视频混合同时处理
+	<p>1.质量参数：默认28， 支持范围 0-50，数值越小越清晰，最佳参考范围22-30；
+	<p>2.尺寸参数：
+	<p>    默认1280，多个值用空格分开，如：1280 720 640；
+	<p>3.输出格式：
+	<p>    视频默认统一为mp4， 图片保持原文件格式，
+	<p>    若需要修改格式，则分别输入视频和图片格式，用空格隔开，
+	<p>    如：avi gif；
